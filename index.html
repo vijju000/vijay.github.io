@@ -82,8 +82,10 @@
                         aria-haspopup="true" aria-expanded="false"> Food Testing </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item " href="food-testing.html"> Food Quality Testing in Banglore</a>
-                        <a class="dropdown-item " href="Food-pathogen-testing.html"> Food Pathogen Testing in Banglore</a>
-                        <a class="dropdown-item " href="NABL-Accredited-abs-in-Bangalore.html"> NABL Accredited Labs in Bangalore</a>
+                        <a class="dropdown-item " href="Food-pathogen-testing.html"> Food Pathogen Testing in
+                            Banglore</a>
+                        <a class="dropdown-item " href="NABL-Accredited-abs-in-Bangalore.html"> NABL Accredited Labs in
+                            Bangalore</a>
 
 
                 </li>
@@ -109,7 +111,10 @@
 
     <div id="banner" class="py-5 bg-image-full "
         style="background-image: url('./assets/img/home-page-banner.jpg'); background-position: center;">
-        <h4 id="banner-content">HELPING BUSINESSES WITH RELIABLE AND QUALITY FOOD TESTING SERVICES</h4>
+        <h4 id="banner-content">FIND YOUR NEAREST FOOD TESTING LAB
+            <button type="button" data-toggle="modal" data-target="#exampleModal2" class="btn ml-1 CsTmbtn"
+            id="button-hero">
+            Enquire Now </button></h4>
         <div style="height: 180px;"></div>
     </div>
     <section class="py-5">
@@ -119,13 +124,10 @@
                     <span class="letters">Why is Food Testing Important?</span>
                 </span>
             </h1>
-            <p> Food testing is essential as we know that contaminated food can lead to food poisoning and to ensure
-                food safety, the analysis of food is extremely important. It follows that the food we consume should be
-                safe in all aspects and should not harm the body. For this reason, it is of paramount importance that
-                the food production process should have a rigorous monitoring and testing component built into it. <br>
-                Equinox Labs is at the forefront of food testing and auditing services, offering unparalleled
-                experience, professional skills, innovative analysis, and the latest technology to ensure quality,
-                safety, and compliance.</p>
+            <p>Food testing is essential as we know that contaminated food can lead to food poisoning and to ensure food
+                safety, the analysis of food is extremely important. It follows that the food we consume should be safe
+                in all aspects and should not harm the body. For this reason, it is of paramount importance that the
+                food production process should have a rigorous monitoring and testing component built into it.</p>
 
         </div>
     </section>
@@ -269,24 +271,28 @@
         <div class="row">
 
             <div class="col-lg-7 order-sm-1 mt-3">
-                <h2>ABOUT US</h2>
+                <h2>Importance of Shelf Life and its Analysis</h2>
                 <br>
                 <p>
-                    Food testing labs in Bangalore are very important in the entire product approval process, literally
-                    from “start to finish”. They generate all the food analysis data as well as safety data (from
-                    clinical trials) that is required in the application process. Further, Section 22 of the FSS Act
-                    indicates that food analysis data should show data on ingredients. Other parameters include label
-                    claims (such as in energy drinks, and functional foods like dietary and health supplements) and
-                    shelf-life study data. Get your nearest Food Testing Labs in Bangalore right here.
+                    Shelf Life Analysis, in common terms, is understanding and identifying the duration of the product
+                    from its manufacture/processing to its consumption, during which it should stay fresh and of good
+                    quality.
+                    This video explains –
+                    <br>
+                    1. Terms used to explain Shelf Life <br>
+                    2. Regulations on Product Life by FSSAI <br>
+                    3. Estimation of Shelf Life<br>
+                    4. Uses and Benefits of analyzing Shelf Life<br>
                 </p>
-                <div class="pt-2 ">
-                    <a id="button" class="btn CsTmbtn" href="about.html">Read more</a>
-                </div>
+
 
             </div>
 
             <div class="col-lg-5 mb-3 order-sm-2 d-none d-lg-block d-xl-block">
-                <img src="./assets/img/about-us-image.jpg" alt="about-us" width="400px;" class="img-fluid ">
+                <iframe width="450" height="320" src="https://www.youtube.com/embed/VspJPYzk8_s"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
 
             </div>
 
@@ -295,7 +301,18 @@
 
 
     <!-- About Section ends -->
+    <div class="container mt-5 CstmCntainer">
+        <div>
 
+            <p>
+                Food products tested can range from processed foods to agricultural commodities, from the field to the
+                store. The testing can be done on raw materials and the product itself during its processing and
+                production,
+                as well as the finished products. This gives a rising need for a Complete NABL Accredited Testing Lab in
+                Bangalore.
+            </p>
+        </div>
+    </div>
 
     <!-- lead magnet section starts-->
 
@@ -323,13 +340,78 @@
 
     <!-- lead magnet section ends-->
 
+  <!-- Normal Popup Enquiry -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="EnquiryPopupLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="EnquiryPopupLabel">
+                    Fill In Your Details to Get in Touch </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form name="EnquiryForm" id="form_lead">
+                    <div class="form-group">
+                        <label for="name"> Full Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                        <div class="error" id="nameErr"></div>
+                    </div>
 
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email"
+                            aria-describedby="emailHelp" placeholder="Mail Id">
+                        <div class="error" id="emailErr"></div>
+                    </div>
+
+                                       <div class="form-group">
+                        <label for="contactNumber"> Contact Number </label>
+                        <input type="text" class="form-control" id="mobile" name="phone" placeholder="Phone No.">
+                        <div class="error" id="mobileErr"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="hidden" id="LEAD_ID" name="LEAD_SOURCE_ID"
+                            value="a023b070-425a-4227-869a-3728e39883f9" />
+                    </div>
+                    <button class="btn" onclick="return validation()" type="submit" id="modal-submit">
+                        Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Normal Popup Enquiry ends -->
 
 
     <hr>
 
+
+    <div class="container mt-5 CstmCntainer">
+        <div>
+
+            <p style="color: #ff0b0b;">
+                Food testing labs in Bangalore are very important in the entire product approval process, literally from
+                “start to finish”. They generate all the food analysis data as well as safety data (from clinical
+                trials) that is required in the application process. Further, Section 22 of the FSS Act indicates that
+                food analysis data should show data on ingredients. Other parameters include label claims (such as in
+                energy drinks, and functional foods like dietary and health supplements) and shelf-life study data. Get
+                your nearest Food Testing Labs in Bangalore right here.
+            </p>
+
+
+            <br>
+            <br><center>
+            <h1>Find the Nearest Food Testing Lab</h1> <br>
+            <button type="button" data-toggle="modal" data-target="#exampleModal2" class="btn ml-1 CsTmbtn"
+                id="button-hero">
+                Enquire Now </button> </center><br> <br>
+        </div>
+    </div>
     <!-- Contact Section-->
-    <div id="contact"></div>
+      <!-- <div id="contact"></div>
 
     <div class="container CstmCntainer">
         <h2 class=" text-center"> CONTACT US </h2>
@@ -364,7 +446,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
     <br>
     <!-- Contact Section ends -->
 
